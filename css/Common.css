@@ -330,13 +330,12 @@ aside nav li a div img {
   .sidebar-wrapper {
     position: fixed;
     z-index: 10;
-
     width: 80%;
-    left: -100%;
+    left: -108%;
     height: 100vh;
     top: 0;
     transition: 0.3s ease all;
-  }
+    }
   .sidebar-wrapper::after {
     width: 100vw;
     height: 100vh;
