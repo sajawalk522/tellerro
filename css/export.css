@@ -147,6 +147,9 @@
     padding: 3rem 2rem;
   }
 }
+.nav-div{
+  display: flex;
+}
 @media screen and (max-width: 700px) {
   .boxes {
     grid-template-columns: 1fr;
