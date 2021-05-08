@@ -14,6 +14,7 @@
 .left-arrow-icon-mbl-shoutcut {
   display: none;
 }
+
 .report-shortcut h2 {
   font-size: 22px;
   color: #11193c;
@@ -201,13 +202,19 @@
   }
   .report-shortcut {
     position: relative;
-    overflow: hidden;
     padding: 2rem 2rem;
   }
   .report-shortcut nav {
     display: flex;
     align-items: center;
+    overflow-x: scroll;
   }
+ .nav-div{
+   display: flex;
+   min-width: 440px;
+   margin-left: 20px;
+   
+ }
   .report-shortcut nav div {
     display: block;
     flex: 1;
